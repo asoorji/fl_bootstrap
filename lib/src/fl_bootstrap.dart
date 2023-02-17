@@ -18,10 +18,16 @@ class FlBootstrap extends StatelessWidget {
   Widget build(BuildContext context) {
     if (Responsive.isMobile(context)) {
       return Column(
-        children: [colSm1, colSm2, colSm3],
+        children: [
+          colSm1,
+          SizedBox(height: spacer),
+          colSm2,
+          SizedBox(height: spacer),
+          colSm3
+        ],
       );
     } else {
-      return Row(
+      return Wrap(
         children: [
           colSm1,
           SizedBox(width: spacer),
