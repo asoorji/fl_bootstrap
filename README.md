@@ -1,7 +1,9 @@
 
-# FlBootstrp
+# FlBootstrap 
 
-Tile container package lets you add a beautiful gradient container to your Flutter app.
+Implementation of Bootstrap Grid system in Flutter for Responsive Layout.
+
+https://user-images.githubusercontent.com/42071241/219798462-565b5b1b-128f-4896-a2a3-470b5eccd700.mp4
 
 ## Installation 
 
